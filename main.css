@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Roboto');
+    src: url('assets/fonts/Roboto-Thin.ttf');
     font-family: 'Roboto Condensed', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+    src: url('assets/fonts/RobotoCondensed-Regular.ttf');
 }
 
 body {
@@ -31,7 +31,7 @@ body * {
     margin: 33px auto 33px;
     padding: 0;
     overflow: hidden;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     vertical-align: top;
 }
 
@@ -41,7 +41,7 @@ body * {
 
 .nav {
     float: right;
-    }
+}
 
 .nav a {
     display: inline-block;
@@ -91,7 +91,7 @@ body * {
     z-index: 1000;
 }
 
-.card {   
+.card {
     position: absolute;
     margin: 85px auto 85px 25px;
     width: 747px;
@@ -106,3 +106,40 @@ body * {
     background-color: #f4f4f4;
 }
 
+.image-big {
+    margin-left: 40px;
+}
+
+.image-small {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.product-information {
+    float: right;
+}
+
+.product-information h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.product-information span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    color: #5e4fff;
+    text-transform: uppercase;
+}
+
+.new {
+    display: block;
+    width: 40px;
+    height: 27px;
+    margin-top: 42px;
+    color: #ffffff;
+    background-color: #ffa60d;
+    text-transform: uppercase;
+    text-align: center;
+}
