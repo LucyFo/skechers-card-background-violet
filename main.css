@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Roboto, sans-serif';
+    background-image: url('assets/images/bg_t.jpg');
+    background: linear-gradient(to top left, #ab70af, #8c59a4, #694098);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    padding: 6px 6px 0 0;
+}
+
+.header {
+    margin: 33px auto 33px;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    vertical-align: top;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    }
+
+.nav a {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 0 0 150px;
+    float: right;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    color: #ffffff;
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin: 6px;
+}
+
+.container:hover .line {
+    background-color: #142753;
+    transition: .4s ease-in-out;
+}
+
+.white-sheet-1 {
+    position: absolute;
+    margin: 96px auto 80px 10px;
+    width: 777px;
+    height: 404px;
+    background-color: #d3b6d6;
+    z-index: 500;
+}
+
+.white-sheet-2 {
+    position: absolute;
+    margin: 104px auto;
+    width: 800px;
+    height: 387px;
+    background-color: #e4d7e9;
+    z-index: 1000;
+}
+
+.card {   
+    position: absolute;
+    margin: 85px auto 85px 25px;
+    width: 747px;
+    height: 426px;
+    background-color: #ffffff;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 1500;
+}
+
+.product-photo {
+    background-color: #f4f4f4;
+}
+
